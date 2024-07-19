@@ -7,19 +7,19 @@
 
 # Build an image (Dockerize) and run on Docker container:
 
-Use VS code
+## Use VS code
 
-Downloade project (git bash):
+## Downloade project (git bash):
     
     git clone https://github.com/monochandan/tweet-sentiment-docker-ML-Model.git // clone the repository in the local computer
 
-Open in VS code
+## Open in VS code
 
     cd api // rediect to api directory
 
     docker compose up --build // build the image in local computer
 
-  Then in browser:
+  ## Then in browser:
 
       http://localhost:500
 
@@ -29,11 +29,11 @@ Open in VS code
 # Directly run on Docker without building an image locally:
 
 
-# Run in command prompt or powershell:
+## Run in command prompt or powershell:
 
     docker run -p5000:5000 chandanmonotosh554/mlapp
 
-# Then in browser:
+## Then in browser:
 
       http://localhost:500
 
