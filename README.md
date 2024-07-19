@@ -4,6 +4,7 @@
 - nltk==3.8.1
 - flask==3.0.3 
 - flask-cors==4.0.1
+- python==3.10
 
 # Build an image (Dockerize) and run on Docker container:
 
