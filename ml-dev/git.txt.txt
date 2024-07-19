@@ -1,0 +1,20 @@
+conda create --name nlp-tweet python=3.9
+conda activate nlp-tweet
+conda install jupyter ipykernel
+
+## create kernel from the environment
+ipython kernel install --user --name=nlp
+conda install scikit-learn
+
+conda install nltk
+conda install pandas
+
+## pipe-line setup 
+
+curl -X POST -H "Content-Type: application/json" -d '{"text": "May the force be with you."}' 0.0.0.0:5000/predict
+
+correct:
+curl -X POST -H "Content-Type: application/json" -d "{\"text\": \"May the force be with you.\"}" http://localhost:5000/predict
+
+
+conda list
