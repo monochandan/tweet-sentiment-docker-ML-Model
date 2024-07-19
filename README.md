@@ -16,9 +16,9 @@
 
 ## Open in VS code
 
-    cd api // rediect to api directory
+    cd api // rediect to api directory (in VS code terminal)
 
-    docker compose up --build // build the image in local computer
+    docker compose up --build // build the image in local computer (in VS code git bash terminal)
 
   ## Then in browser:
 
